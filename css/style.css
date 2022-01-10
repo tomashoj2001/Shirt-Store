@@ -102,9 +102,10 @@ h3{
     /* GRID */
 .grid{
   display: grid;  
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 47% 47%;
   gap: 2rem;
   margin: 0 auto;
+  overflow: hidden;
 }
 @media screen and (min-width: 768px) {
     .grid{
