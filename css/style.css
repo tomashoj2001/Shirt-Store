@@ -39,6 +39,7 @@ img{
     width: 100%;
 }
 .contenedor{
+    width: 95%;
     max-width: 120rem;
     margin: 0 auto;
 }
@@ -101,8 +102,9 @@ h3{
     /* GRID */
 .grid{
   display: grid;  
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 50% 50%;
   gap: 2rem;
+  margin: 0 auto;
 }
 @media screen and (min-width: 768px) {
     .grid{
@@ -127,6 +129,9 @@ h3{
     font-family: var(--fuente-principal);
     margin: 1rem 0;
     line-height: 1.2;
+}
+.producto__imagen img{
+    width: 100%;
 }
 
     /* GRAFICOS */
@@ -222,6 +227,7 @@ h3{
     font-family: Arial, Helvetica, sans-serif;
     padding: 1rem;
     margin-top: 2rem;
+    width: 100%;
 }
 .formulario__submit{
     background-color: var(--secundario);
@@ -235,4 +241,7 @@ h3{
 }
 .formulario__submit:hover{
     background-color: var(--secundario-oscuro);
+}
+option{
+    color: #000;
 }
